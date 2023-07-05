@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-14T22:11:25 GMT-04:00" name="Suite" finished-at="2023-06-14T22:14:04 GMT-04:00" duration-ms="159532">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.verifyErrorMessageonWrongCredentials()[pri:0, instance:eCommerce.endToendFramework.Tests.ErrorValidationTest@62ef27a8]" name="verifyErrorMessageonWrongCredentials" class="eCommerce.endToendFramework.Tests.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:eCommerce.endToendFramework.Tests.SubmitOrderTest@41e68d87]" name="submitOrder" class="eCommerce.endToendFramework.Tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-06-14T22:11:25 GMT-04:00" name="ErrorValidationTest" finished-at="2023-06-14T22:11:42 GMT-04:00" duration-ms="17151">
+      <class name="eCommerce.endToendFramework.Tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:eCommerce.endToendFramework.Tests.ErrorValidationTest@62ef27a8]" started-at="2023-06-14T22:11:25 GMT-04:00" name="launchApplication" finished-at="2023-06-14T22:11:31 GMT-04:00" duration-ms="6677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyErrorMessageonWrongCredentials()[pri:0, instance:eCommerce.endToendFramework.Tests.ErrorValidationTest@62ef27a8]" started-at="2023-06-14T22:11:31 GMT-04:00" name="verifyErrorMessageonWrongCredentials" finished-at="2023-06-14T22:11:32 GMT-04:00" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageonWrongCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerce.endToendFramework.Tests.ErrorValidationTest@62ef27a8]" started-at="2023-06-14T22:11:32 GMT-04:00" name="tearDown" finished-at="2023-06-14T22:11:32 GMT-04:00" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:eCommerce.endToendFramework.Tests.ErrorValidationTest@62ef27a8]" started-at="2023-06-14T22:11:32 GMT-04:00" name="launchApplication" finished-at="2023-06-14T22:11:39 GMT-04:00" duration-ms="6932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyIfProductNameMatchesInCartNegScenario()[pri:0, instance:eCommerce.endToendFramework.Tests.ErrorValidationTest@62ef27a8]" started-at="2023-06-14T22:11:39 GMT-04:00" name="verifyIfProductNameMatchesInCartNegScenario" finished-at="2023-06-14T22:11:42 GMT-04:00" duration-ms="2602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfProductNameMatchesInCartNegScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerce.endToendFramework.Tests.ErrorValidationTest@62ef27a8]" started-at="2023-06-14T22:11:42 GMT-04:00" name="tearDown" finished-at="2023-06-14T22:11:42 GMT-04:00" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- eCommerce.endToendFramework.Tests.ErrorValidationTest -->
+    </test> <!-- ErrorValidationTest -->
+    <test started-at="2023-06-14T22:11:25 GMT-04:00" name="SubmitOrderTest" finished-at="2023-06-14T22:14:04 GMT-04:00" duration-ms="159532">
+      <class name="eCommerce.endToendFramework.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:eCommerce.endToendFramework.Tests.SubmitOrderTest@41e68d87]" started-at="2023-06-14T22:11:25 GMT-04:00" name="launchApplication" finished-at="2023-06-14T22:11:31 GMT-04:00" duration-ms="5984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:eCommerce.endToendFramework.Tests.SubmitOrderTest@41e68d87]" started-at="2023-06-14T22:11:31 GMT-04:00" name="submitOrder" data-provider="getData" finished-at="2023-06-14T22:11:40 GMT-04:00" duration-ms="9341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[garima2404@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Garima@2404]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerce.endToendFramework.Tests.SubmitOrderTest@41e68d87]" started-at="2023-06-14T22:11:40 GMT-04:00" name="tearDown" finished-at="2023-06-14T22:11:40 GMT-04:00" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:eCommerce.endToendFramework.Tests.SubmitOrderTest@41e68d87]" started-at="2023-06-14T22:11:40 GMT-04:00" name="launchApplication" finished-at="2023-06-14T22:11:46 GMT-04:00" duration-ms="6038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:eCommerce.endToendFramework.Tests.SubmitOrderTest@41e68d87]" started-at="2023-06-14T22:11:46 GMT-04:00" name="submitOrder" data-provider="getData" finished-at="2023-06-14T22:11:55 GMT-04:00" duration-ms="9217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shetty@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iamking@000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerce.endToendFramework.Tests.SubmitOrderTest@41e68d87]" started-at="2023-06-14T22:11:55 GMT-04:00" name="tearDown" finished-at="2023-06-14T22:11:55 GMT-04:00" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:eCommerce.endToendFramework.Tests.SubmitOrderTest@41e68d87]" started-at="2023-06-14T22:11:55 GMT-04:00" name="launchApplication" finished-at="2023-06-14T22:12:02 GMT-04:00" duration-ms="6192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:eCommerce.endToendFramework.Tests.SubmitOrderTest@41e68d87]" started-at="2023-06-14T22:12:02 GMT-04:00" name="orderHistoryTest" finished-at="2023-06-14T22:14:03 GMT-04:00" depends-on-methods="eCommerce.endToendFramework.Tests.SubmitOrderTest.submitOrder" duration-ms="121673" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //button[@routerlink='/dashboard/myorders'] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '11.5.2', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/zv/lrcz2y1j6vn...}, goog:chromeOptions: {debuggerAddress: localhost:63845}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63845/devtoo..., se:cdpVersion: 114.0.5735.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e0a6245e6ec6cb2f61d25946e7104b4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@routerlink='/dashboard/myorders'] (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '11.5.2', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.106, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/zv/lrcz2y1j6vn...}, goog:chromeOptions: {debuggerAddress: localhost:63845}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63845/devtoo..., se:cdpVersion: 114.0.5735.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e0a6245e6ec6cb2f61d25946e7104b4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at eCommerce.endToendFramework.AbstractComponents.AbstractComponent.waitForElementToAppear(AbstractComponent.java:41)
+at eCommerce.endToendFramework.AbstractComponents.AbstractComponent.clickOnOrderHistory(AbstractComponent.java:66)
+at eCommerce.endToendFramework.Tests.SubmitOrderTest.orderHistoryTest(SubmitOrderTest.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerce.endToendFramework.Tests.SubmitOrderTest@41e68d87]" started-at="2023-06-14T22:14:04 GMT-04:00" name="tearDown" finished-at="2023-06-14T22:14:04 GMT-04:00" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- eCommerce.endToendFramework.Tests.SubmitOrderTest -->
+    </test> <!-- SubmitOrderTest -->
+  </suite> <!-- Suite -->
+</testng-results>
