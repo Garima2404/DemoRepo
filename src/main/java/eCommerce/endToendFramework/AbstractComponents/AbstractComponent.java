@@ -65,6 +65,7 @@ public class AbstractComponent {
 	public OrderPage clickOnOrderHistory() {
 		waitForElementToAppear(btn);
 		Orders.click();
+		System.out.println("Just for my reference");
 		OrderPage op=new OrderPage(driver);
 		return op;
 		
